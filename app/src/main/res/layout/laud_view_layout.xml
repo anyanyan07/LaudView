@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <com.anyan.laudview.widget.LaudImageView
+        android:id="@+id/laudView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"/>
+
+    <com.anyan.laudview.widget.LaudCountView
+        android:id="@+id/laudCountView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:text="300"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>
